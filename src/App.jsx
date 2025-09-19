@@ -1,101 +1,93 @@
 import EventList from "./components/EventList";
-import awning from "./assets/awning.png";
+import VSU from "./assets/VSU.png";
 import "./index.css";
-import truck1 from "./assets/truck1.webp";
-import truck2 from "./assets/truck2.png";
-import truck3 from "./assets/truck3.webp";
-import truck4 from "./assets/truck4.jpg";
-import truck5 from "./assets/truck5.jpg";
-import truck6 from "./assets/truck6.jpg";
-import truck7 from "./assets/truck7.jpg";
-import truck8 from "./assets/truck8.jpg";
-import truck9 from "./assets/truck9.jpg";
-import truck10 from "./assets/truck10.jpg";
-import truck11 from "./assets/truck11.jpg";
-import truck12 from "./assets/truck12.jpg";
+import game1 from "./assets/game1.webp";
+import game2 from "./assets/game2.webp";
+import game3 from "./assets/game3.webp";
+import game4 from "./assets/game4.webp";
+import game5 from "./assets/game5.webp";
+import game6 from "./assets/game6.webp";
+import game7 from "./assets/game7.webp";
+import game8 from "./assets/game8.webp";
+import game9 from "./assets/game9.webp";
+import game10 from "./assets/game10.webp";
+import game11 from "./assets/game11.webp";
 
 function App() {
   const events = [
     {
-      title: "Birria-Landia",
-      type: "Mexican",
-      image: truck1,
-      link: "https://thebirrialandia.com/menu/",
+      title: "@ Barton College",
+      type: "August 28th, 7:00 PM",
+      image: game1,
+      link: "https://govsutrojans.com/news/2025/8/28/football-trojans-dominate-both-sides-of-the-ball-in-season-opening-win-over-bulldogs.aspx",
     },
     {
-      title: "Mysttik Masala",
-      type: "Indian",
-      image: truck2,
-      link: "https://indianfoodny.com/",
+      title: "@ Norfolk State University",
+      type: "September 6th, 6:00 PM",
+      image: game2,
+      link: "https://govsutrojans.com/news/2025/9/6/football-smith-and-byrd-break-100-receiving-yards-each-in-trojans-34-31-loss-to-norfolk-state.aspx",
     },
     {
-      title: "The Halal Guys",
-      type: "Middle Eastern",
-      image: truck3,
-      link: "https://thehalalguys.com/menu/",
+      title: "@ Winston-Salem State University",
+      type: "September 20th, 1:00 PM",
+      image: game3,
+      link: "https://theciaasn.com/wssu/",
     },
     {
-      title: "NY Dosas",
-      type: "Vegetarian",
-      image: truck4,
-      link: "https://nydosas.com/menu/",
+      title: "@ Fayetteville State University",
+      type: "September 27th, 1:00 PM",
+      image: game4,
+      link: "https://fsubroncos.com/sports/2018/7/30/sportsnetwork.aspx?path=general",
     },
     {
-      title: "Jerk Pan",
-      type: "Jamaican",
-      image: truck5,
-      link: "https://www.allmenus.com/ny/new-york/360888-jerk-pan/menu/",
+      title: "VS Johnson C. Smith University",
+      type: "October 4th, 2:00 PM",
+      image: game5,
+      link: "https://www.theciaasn.com/vsu/",
     },
     {
-      title: "Tong",
-      type: "Bangladeshi",
-      image: truck6,
-      link: "https://www.facebook.com/Bangladeshistreetfoods/",
+      title: "@ Bowie State University",
+      type: "October 11th, 1:00 PM",
+      image: game6,
+      link: "https://govsutrojans.com/sports/football/opponent-history/bowie-state-university/10",
     },
     {
-      title: "King Souvlaki of Astoria",
-      type: "Greek",
-      image: truck7,
-      link: "https://kingsouvlakinyc.com/",
+      title: "VS Elizabeth City State University",
+      type: "October 18th, 2:00 PM",
+      image: game7,
+      link: "https://www.theciaasn.com/vsu/",
     },
     {
-      title: "Ling's Sweet Mini Cakes",
-      type: "Chinese",
-      image: truck8,
-      link: "https://canalstreet.market/",
+      title: "VS Bluefield State University",
+      type: "October 25th, 2:00 PM",
+      image: game8,
+      link: "https://www.theciaasn.com/vsu/",
     },
     {
-      title: "Uncle Gussy's",
-      type: "Greek",
-      image: truck9,
-      link: "https://unclegussys.com/menus/",
+      title: "VS Lincoln University",
+      type: "November 1st, 2:00 PM",
+      image: game9,
+      link: "https://www.theciaasn.com/vsu/",
     },
     {
-      title: "Patacon Pisao",
-      type: "Venezuelan",
-      image: truck10,
-      link: "https://www.pataconpisaonyc.com/menus/",
+      title: "@ Virginia Union University",
+      type: "November 8th, 1:00 PM",
+      image: game10,
+      link: "https://govsutrojans.com/sports/football/opponent-history/virginia-union-university/3",
     },
     {
-      title: "Mom's Mono",
-      type: "Tibetan",
-      image: truck11,
-      link: "https://www.restaurantji.com/ny/jackson-heights/moms-momo-/menu/",
+      title: "Central Intercollegiate Athletic Association Championship",
+      type: "November 15th, TBA",
+      image: game11,
+      link: "https://govsutrojans.com/sports/football/opponent-history/central-intercollegiate-athletic-association/102",
     },
-    {
-      title: "Makina Cafe",
-      type: "Ethiopian",
-      image: truck12,
-      link: "https://makinacafenyc.com/",
-    },
-    
   ];
 
   return (
     <div className="App">
       <div className="Header">
-        <img src={awning} alt="Awning" className="header-image" />
-        <h1 className="title">Food Truck Favorites</h1>
+        <img src={VSU} alt="VSU" className="header-image" />
+        <h1 className="title">Virginia State Schedule</h1>
       </div>
       <EventList events={events} />
     </div>

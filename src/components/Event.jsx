@@ -16,7 +16,7 @@ const Event = ({ title, type, image, link }) => {
           rel="noopener noreferrer"
           className="btn btn-primary"
         >
-          View Menu
+          Watch Live
         </a>
       </div>
     </div>

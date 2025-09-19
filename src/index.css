@@ -10,7 +10,7 @@
   font-family: Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #a9e2e4;
+  background-color: #DE6B29;
   color: #000;
 }
 
@@ -31,8 +31,8 @@
 
 .Header img {
   width: 100%;
-  max-height: 300px;
-  max-width: 800px;
+  max-height: 200px;
+  max-width: 200px;
   object-fit: cover;
   border-radius: 12px;
   margin-bottom: 1rem;
@@ -76,10 +76,14 @@
 
 /* Card image */
 .card-img-top {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
+  width: 50%;        /* full width of the card */
+  height: 50%;      /* fixed height or whatever fits your design */
+  object-fit: cover;  /* keeps aspect ratio and crops excess */
+  display: block;     /* ensures margins work properly */
+  margin: 0 auto;     /* centers the image horizontally */
+  border-bottom: 1px solid #eee; /* optional separation */
 }
+
 
 /* Card body */
 .card-body {
