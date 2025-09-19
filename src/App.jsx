@@ -87,7 +87,7 @@ function App() {
     <div className="App">
       <div className="Header">
         <img src={VSU} alt="VSU" className="header-image" />
-        <h1 className="title">Virginia State Schedule</h1>
+        <h1 className="title">Virginia State Football Schedule</h1>
       </div>
       <EventList events={events} />
     </div>
