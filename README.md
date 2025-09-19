@@ -4,7 +4,7 @@ Submitted by: **Hunter Smith**
 
 This web app: **Created a community board Web Page using React and functional React components**
 
-Time spent: **2** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
@@ -41,7 +41,7 @@ GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I had some trouble at first with layout out my grid. The CSS wasn't lined up to my preference, so I spent some time making everything uniform.
 
 ## License
 
