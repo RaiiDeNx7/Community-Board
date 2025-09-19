@@ -58,6 +58,7 @@
 /* Card */
 .card {
   flex: 0 0 16%; /* ~6 cards per row */
+  min-height: 350px;
   background: white;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -76,12 +77,12 @@
 
 /* Card image */
 .card-img-top {
-  width: 50%;        /* full width of the card */
-  height: 50%;      /* fixed height or whatever fits your design */
-  object-fit: cover;  /* keeps aspect ratio and crops excess */
-  display: block;     /* ensures margins work properly */
-  margin: 0 auto;     /* centers the image horizontally */
-  border-bottom: 1px solid #eee; /* optional separation */
+  width: 50%;        
+  height: 50%;      
+  object-fit: cover;  
+  display: block;     
+  margin: 0 auto;     
+  border-bottom: 1px solid #eee; 
 }
 
 
